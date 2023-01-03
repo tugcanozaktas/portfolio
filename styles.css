@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin-left: 0;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(196, 44, 44);
+}
+#navbar nav{
+    text-align: right;
+    margin: 4vh 0;
+    padding-right: 50px;
+}
+#navbar nav a{
+    text-decoration: none;
+    color: white;
+    padding: 45px 4vw;
+
+}
+.links:hover{
+    background-color: rgb(1, 1, 24);
+}
+
+
+#name{
+    margin-top: 10vh;
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(62deg, #353535 , #0e0d0d);
+}
+#name .about{
+    text-align: center;
+    margin: auto;
+}
+#name h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 35vh;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    
+}
+#name h3{
+    font-size: 45px;
+    font-weight:100;
+    font-style: oblique;
+    color: rgb(196, 44, 44);
+}
+#projects-section{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(62deg,rgb(52, 68, 218) ,rgb(15, 22, 73)) ;
+}
+#projects-section #projects{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px
+}
+#projects-section #title{
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 400px;
+    border-bottom: solid white;
+    color: white;
+}
+
+#projects .project{
+    background-color: rgb(34, 34, 37);
+    border-radius: 10px;
+}
+#projects a{
+    text-decoration: none;
+    width: 250px;
+    height: 150px;
+}
+
+#projects img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 250px;
+    height: 150px;
+}
+.describe{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+
+    transition: color 300ms ease-in;
+}
+#contact{
+    height: 70vh;
+    width: 100vw;
+    background: linear-gradient(62deg, black, rgb(85, 82, 82));
+}
+.project:hover .describe{
+    color: rgb(255, 184, 77);
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h2{
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+}
+#contact p{
+    color: white;
+    font-weight: 100;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+#contact nav{
+    width: fit-content;
+}
+#contact nav li{
+    display: inline;
+    list-style-type: none;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.contact-details{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: transform 500ms ease-out;
+}
+.contact-details:hover{
+    transform: translateY(5px);
+}
+
