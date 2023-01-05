@@ -59,11 +59,10 @@ body{
 }
 #projects-section #projects{
     padding-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
 }
 #projects-section #title{
     text-align: center;
@@ -77,8 +76,12 @@ body{
 }
 
 #projects .project{
-    background-color: rgb(34, 34, 37);
+    display: flex;
+    margin: auto;
+    width: 250px;
+    background-color: #040c3d;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 #projects a{
     text-decoration: none;
