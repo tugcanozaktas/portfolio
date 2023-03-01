@@ -20,7 +20,7 @@ body{
 #navbar nav a{
     text-decoration: none;
     color: white;
-    padding: 45px 4vw;
+    padding: 39px 4vw;
 
 }
 .links:hover{
@@ -104,50 +104,56 @@ body{
 
     transition: color 300ms ease-in;
 }
-#contact{
-    height: 70vh;
-    width: 100vw;
-    background: linear-gradient(62deg, black, rgb(85, 82, 82));
+#contact-page{
+    background-color: rgb(1, 1, 24) ;
 }
-.project:hover .describe{
-    color: rgb(255, 184, 77);
+#contact-section{
+    height: 100vh;
+    background: linear-gradient(75deg, black, grey);
 }
-#contact{
+#name-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+#form-section{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+#form-section form label{
+    align-self: flex-start;
+    font-size: 20px;
+    color: rgb(195, 196, 206);
+}
+#form-section form input{
+    height: 25px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-
-#contact h2{
-    color: white;
-    font-weight: 900;
-    font-size: 45px;
-}
-#contact p{
-    color: white;
-    font-weight: 100;
-    margin-top: -20px;
-    font-size: 20px;
+.input-field{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
 }
 
-#contact nav{
-    width: fit-content;
+#message{
+    height: 100px;
 }
-#contact nav li{
-    display: inline;
-    list-style-type: none;
-    margin-top: 50px;
-    padding-right: 50px;
+#button button{
+    border-radius: 5px;
+    border: 0;
+    margin: 5px 20px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
 }
-
-.contact-details{
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    transition: transform 500ms ease-out;
-}
-.contact-details:hover{
-    transform: translateY(5px);
-}
-
