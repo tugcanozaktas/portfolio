@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        window.onload = function(){
+            var submitButton = document.getElementById("submit-button");
+            submitButton.addEventListener("click", alertFunc, false)
+            var fullName = document.getElementById("name-input").value;
+            var email = document.getElementById("email-input").value;
+            var message = document.getElementById("message").value;
+
+            var alert = fullName +" "+ email + " " + message ;
+            var alertFunc = function(){
+                
+
+                alert("hello");
+            }
+
+        }
+        
+
+        
+    </script>
+    
 </head>
 <html lang="en">
 
