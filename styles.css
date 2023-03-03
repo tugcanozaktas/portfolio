@@ -3,10 +3,12 @@ html{
 }
 body{
     width: 100%;
-    margin-left: 0;
+    margin: 0;
 }
 #navbar{
     position: fixed;
+
+    z-index: 1;
     top: 0;
     width: 100vw;
     height: 10vh;
@@ -156,4 +158,75 @@ body{
     background-color: white;
     color: black;
     font-size: 15px;
+}
+
+#about-page{
+    background-color: rgb(1, 1, 24) ;
+}
+#info-section{
+    height: 100%;
+    background: linear-gradient(75deg, rgb(27, 27, 27), grey);
+    color: rgb(194, 184, 184);
+
+}
+
+#info nav{
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    width: 130px;
+    height: 100vh;
+    padding-top: 100px;
+}
+#info nav ul{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-inline-start: 10px;
+}
+#info nav ul li{
+    list-style-type: none;
+}
+#info nav ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.sections{
+    padding-left: 140px;
+    padding-right: 80px;
+    text-align: justify;
+    width: 70%
+}
+
+.sections h1{
+    text-align: center;
+}
+
+#education{
+    padding-top: 100px;
+    
+}
+#job ul li{
+    font-weight: bold;
+}
+#job ul p{
+    padding-left: 20px;
+}
+#skills ul .main-skill{
+    font-weight: bold;
+}
+#skills ul .skill{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+#referances a{
+    text-decoration: none;
+}
+
+#referances a:visited{
+    color: white;
 }
